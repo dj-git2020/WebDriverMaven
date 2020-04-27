@@ -17,6 +17,8 @@ public class LoginTest {
 	@Test
 	public void doLogin() {
 		driver.get("http://nmu.ac.in");
+		
+		System.out.println("Hello");
 	}
 	
 	@AfterSuite
